@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thenewbegineeing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="sidebar.css.html"/>
+
+</head>
+<body>
+
+       <div id="wrapper">
+
+           <!--sidebar-->
+           <div id="sidebar-wrapper">
+               <ul class="sidebar-nav">
+                   <li><a href="#">Account</a></li>
+                   <li><a href="#">Settings</a></li>
+                   <li><a href="#">Logout</a></li>
+               </ul>
+           </div>
+
+           <!--Page content-->
+           <div id="page-content-wrapper">
+               <div class="container-fluid">
+                   <div class="row">
+                       <div class="col-lg-12"><a href="#">Toggle Menu</a>
+                        <h1>Sidebar layouts</h1>
+                           <p>Hello today is beautiful day Hello today is beautiful day Hello today is beautiful day Hello today is beautiful day
+                           Hello today is beautiful day Hello today is beautiful day Hello today is beautiful day Hello today is beautiful day</p>
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+       </div>
+
+       <!--Menu Toggle Script-->
+       <script>
+           &("#menu-toggle").click(function(e)
+           {e.preventDefault();
+           &("#wrapper").toggleClass("menuDisplayed")});
+       </script>
+
+
+
+</body>
+</html>
